@@ -11,7 +11,6 @@ exports.getDashboard = async (req, res) => {
   res.json({ users, expenses, tasks });
 };
 
-
 exports.getUsers = async (req, res) => {
   try {
     const { page = 1, limit = 10, keyword } = req.query; 

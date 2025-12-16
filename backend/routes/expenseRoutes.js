@@ -11,5 +11,4 @@ router.get("/recent", auth, expenseController.getRecentExpenses);
 router.get("/:id", auth, expenseController.getExpenseById);
 router.put("/:id", auth, expenseController.updateExpense);
 router.delete("/:id", auth, expenseController.deleteExpense);
-
 module.exports = router;
