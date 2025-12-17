@@ -5,6 +5,7 @@ const connectDB = require("./config/db");
 
 dotenv.config();
 connectDB().then(()=>{
+  
   const app = express();
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
@@ -12,6 +13,7 @@ connectDB().then(()=>{
   origin: process.env.FRONTEND_URL || "http://localhost:5173", 
   credentials: true
 }));
+
   
   app.use("/api/auth", require("./routes/authRoutes"));
   app.use("/api/expenses", require("./routes/expenseRoutes"));
