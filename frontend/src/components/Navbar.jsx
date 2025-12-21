@@ -13,7 +13,6 @@ export default function Navbar() {
       isAdmin = user.role === "admin";
     } catch (e) { /* ignore */ }
   }
-
   const handleLogout = () => {
     
     localStorage.removeItem("accessToken");
