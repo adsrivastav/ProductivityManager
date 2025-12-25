@@ -1,10 +1,6 @@
 # Personal Productivity Manager
 
-This project is given to me as a company assignment.
-
-I tried to complete all requirements one by one and learned many things while doing this assignment.
-
-## Tech Stack
+# Tech Stack
 
 Frontend:
 
@@ -93,9 +89,4 @@ Backend `.env`
 * MONGO_URI
 * JWT_SECRET
 
-## Note
 
-This assignment is done honestly for learning and practice.
-I tried my best to follow the requirements and keep code simple.
-
-Thank you 🙏
